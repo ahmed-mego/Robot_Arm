@@ -1,0 +1,34 @@
+[1.373s] Invoking command in '/home/youssef/robot_crafters_ws/build/motors': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/youssef/robot_crafters_ws/build/motors/build
+[1.771s] running develop
+[2.013s] Removing /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors.egg-link (link to .)
+[2.059s] Invoked command in '/home/youssef/robot_crafters_ws/build/motors' returned '0': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/youssef/robot_crafters_ws/build/motors/build
+[2.061s] Invoking command in '/home/youssef/robot_crafters_ws/src/motors': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motors build --build-base /home/youssef/robot_crafters_ws/build/motors/build install --record /home/youssef/robot_crafters_ws/build/motors/install.log --single-version-externally-managed install_data --force
+[2.433s] running egg_info
+[2.434s] writing ../../build/motors/motors.egg-info/PKG-INFO
+[2.435s] writing dependency_links to ../../build/motors/motors.egg-info/dependency_links.txt
+[2.435s] writing entry points to ../../build/motors/motors.egg-info/entry_points.txt
+[2.435s] writing requirements to ../../build/motors/motors.egg-info/requires.txt
+[2.435s] writing top-level names to ../../build/motors/motors.egg-info/top_level.txt
+[2.437s] reading manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+[2.439s] writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+[2.439s] running build
+[2.439s] running build_py
+[2.439s] running install
+[2.440s] running install_lib
+[2.445s] creating /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors
+[2.445s] copying /home/youssef/robot_crafters_ws/build/motors/build/lib/motors/motor_srv.py -> /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors
+[2.445s] copying /home/youssef/robot_crafters_ws/build/motors/build/lib/motors/motor_cli.py -> /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors
+[2.446s] copying /home/youssef/robot_crafters_ws/build/motors/build/lib/motors/__init__.py -> /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors
+[2.446s] byte-compiling /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors/motor_srv.py to motor_srv.cpython-310.pyc
+[2.447s] byte-compiling /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors/motor_cli.py to motor_cli.cpython-310.pyc
+[2.448s] byte-compiling /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors/__init__.py to __init__.cpython-310.pyc
+[2.449s] running install_data
+[2.449s] copying resource/motors -> /home/youssef/robot_crafters_ws/install/motors/share/ament_index/resource_index/packages
+[2.449s] copying package.xml -> /home/youssef/robot_crafters_ws/install/motors/share/motors
+[2.449s] running install_egg_info
+[2.451s] Copying ../../build/motors/motors.egg-info to /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info
+[2.453s] running install_scripts
+[2.488s] Installing motor_cli script to /home/youssef/robot_crafters_ws/install/motors/lib/motors
+[2.488s] Installing motor_srv script to /home/youssef/robot_crafters_ws/install/motors/lib/motors
+[2.489s] writing list of installed files to '/home/youssef/robot_crafters_ws/build/motors/install.log'
+[2.538s] Invoked command in '/home/youssef/robot_crafters_ws/src/motors' returned '0': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motors build --build-base /home/youssef/robot_crafters_ws/build/motors/build install --record /home/youssef/robot_crafters_ws/build/motors/install.log --single-version-externally-managed install_data --force

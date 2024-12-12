@@ -1,0 +1,4 @@
+[console_scripts]
+motor_cli = motors.motor_cli:main
+motor_srv = motors.motor_srv:main
+

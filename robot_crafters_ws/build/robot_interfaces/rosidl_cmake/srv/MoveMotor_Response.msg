@@ -1,0 +1,2 @@
+
+float64 new_location

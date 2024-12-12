@@ -1,0 +1,203 @@
+[0.016s] Invoking command in '/home/youssef/robot_crafters_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/youssef/robot_crafters_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youssef/robot_crafters_ws/install/robot_interfaces
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.344s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.042s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.767s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.802s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.802s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.802s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.832s] -- Configuring done
+[1.880s] -- Generating done
+[1.898s] -- Build files have been written to: /home/youssef/robot_crafters_ws/build/robot_interfaces
+[1.906s] Invoked command in '/home/youssef/robot_crafters_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/youssef/robot_crafters_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youssef/robot_crafters_ws/install/robot_interfaces
+[1.909s] Invoking command in '/home/youssef/robot_crafters_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/youssef/robot_crafters_ws/build/robot_interfaces -- -j12 -l12
+[1.985s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c[0m
+[2.021s] [  2%] Built target robot_interfaces__cpp
+[2.027s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[2.050s] [ 12%] Built target ament_cmake_python_symlink_robot_interfaces
+[2.061s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp[0m
+[2.062s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.066s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.067s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c[0m
+[2.080s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c[0m
+[2.080s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.113s] [ 23%] Built target robot_interfaces__rosidl_typesupport_cpp
+[2.120s] [ 46%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[2.121s] [ 48%] Built target robot_interfaces__rosidl_typesupport_c
+[2.122s] [ 55%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[2.123s] [ 65%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.144s] [ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.198s] [ 76%] Built target robot_interfaces
+[2.230s] [ 78%] Built target robot_interfaces__py
+[2.257s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py[0m
+[2.276s] [ 87%] Built target robot_interfaces__rosidl_generator_py
+[2.294s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext[0m
+[2.294s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.294s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.312s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[2.312s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.312s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.524s] running egg_info
+[2.525s] writing robot_interfaces.egg-info/PKG-INFO
+[2.525s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[2.525s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[2.529s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[2.530s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[2.567s] [100%] Built target ament_cmake_python_build_robot_interfaces_egg
+[2.583s] Invoked command in '/home/youssef/robot_crafters_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/youssef/robot_crafters_ws/build/robot_interfaces -- -j12 -l12
+[2.598s] Invoking command in '/home/youssef/robot_crafters_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/youssef/robot_crafters_ws/build/robot_interfaces
+[2.611s] -- Install configuration: ""
+[2.612s] -- Execute custom install script
+[2.613s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[2.614s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__functions.h
+[2.614s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__struct.h
+[2.614s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__type_support.h
+[2.614s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__functions.h
+[2.614s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__struct.h
+[2.615s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__type_support.h
+[2.615s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__functions.h
+[2.615s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__struct.h
+[2.615s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__type_support.h
+[2.615s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor.h
+[2.616s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor_status.h
+[2.616s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motors.h
+[2.616s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.617s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__functions.h
+[2.617s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__struct.h
+[2.617s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__type_support.h
+[2.617s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/move_motor.h
+[2.618s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[2.618s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[2.618s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__rosidl_typesupport_fastrtps_c.h
+[2.619s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[2.619s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_fastrtps_c.h
+[2.619s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.619s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_fastrtps_c.h
+[2.620s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__rosidl_typesupport_introspection_c.h
+[2.620s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[2.620s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_introspection_c.h
+[2.621s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.621s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_introspection_c.h
+[2.621s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__builder.hpp
+[2.622s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__struct.hpp
+[2.622s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__traits.hpp
+[2.622s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__type_support.hpp
+[2.622s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__builder.hpp
+[2.623s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__struct.hpp
+[2.623s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__traits.hpp
+[2.623s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__type_support.hpp
+[2.623s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__builder.hpp
+[2.623s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__struct.hpp
+[2.624s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__traits.hpp
+[2.624s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__type_support.hpp
+[2.624s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor.hpp
+[2.624s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor_status.hpp
+[2.624s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motors.hpp
+[2.624s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.625s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__builder.hpp
+[2.625s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__struct.hpp
+[2.625s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__traits.hpp
+[2.625s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__type_support.hpp
+[2.625s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/move_motor.hpp
+[2.626s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.627s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.627s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp
+[2.627s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.627s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.628s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp
+[2.628s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[2.628s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_introspection_cpp.hpp
+[2.628s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_introspection_cpp.hpp
+[2.628s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[2.629s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[2.629s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.629s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.629s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.630s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.631s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[2.631s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[2.631s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.631s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.631s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[2.631s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py
+[2.632s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor.py
+[2.632s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_s.c
+[2.632s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_status.py
+[2.632s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_status_s.c
+[2.632s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motors.py
+[2.632s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motors_s.c
+[2.633s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.633s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.633s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.633s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py
+[2.633s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_move_motor.py
+[2.633s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_move_motor_s.c
+[2.634s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.634s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.634s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.635s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/msg/MotorStatus.idl
+[2.635s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/msg/Motors.idl
+[2.635s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor.idl
+[2.635s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/msg/MotorStatus.msg
+[2.636s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/msg/Motors.msg
+[2.636s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor.srv
+[2.636s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor_Request.msg
+[2.636s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor_Response.msg
+[2.636s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[2.637s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[2.637s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[2.637s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[2.637s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[2.638s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[2.638s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[2.638s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[2.638s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[2.638s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[2.639s] -- Symlinking: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[2.651s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[2.651s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.651s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.651s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.651s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.652s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.652s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.652s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.652s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[2.652s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[2.653s] -- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[2.653s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[2.653s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.654s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[2.654s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[2.654s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.655s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.655s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[2.706s] Listing '/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[2.706s] Compiling '/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[2.706s] Listing '/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...
+[2.706s] Listing '/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...
+[2.712s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[2.712s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[2.712s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.713s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[2.714s] -- Up-to-date: /home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.717s] Invoked command in '/home/youssef/robot_crafters_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/youssef/robot_crafters_ws/build/robot_interfaces

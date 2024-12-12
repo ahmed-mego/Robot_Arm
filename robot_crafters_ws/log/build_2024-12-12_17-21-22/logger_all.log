@@ -1,0 +1,312 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72a2eb030ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72a2eb0309a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72a2eb0309a0>>)
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.223s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/youssef/robot_crafters_ws'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/motors) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motors' with type 'ros.ament_python' and name 'motors'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/youssef/robot_crafters_ws/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/youssef/colcon_ws/install
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youssef/robot_crafters_ws/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youssef/robot_crafters_ws/install/robot_interfaces', 'merge_install': False, 'path': '/home/youssef/robot_crafters_ws/src/robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youssef/robot_crafters_ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youssef/robot_crafters_ws/install/control', 'merge_install': False, 'path': '/home/youssef/robot_crafters_ws/src/control', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'motors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'motors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youssef/robot_crafters_ws/build/motors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youssef/robot_crafters_ws/install/motors', 'merge_install': False, 'path': '/home/youssef/robot_crafters_ws/src/motors', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youssef/robot_crafters_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youssef/robot_crafters_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/youssef/robot_crafters_ws/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youssef/robot_crafters_ws/src/robot_interfaces' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youssef/robot_crafters_ws/src/robot_interfaces'
+[0.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/robot_crafters_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/youssef/robot_crafters_ws/build/robot_interfaces -- -j12 -l12
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/robot_crafters_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/youssef/robot_crafters_ws/build/robot_interfaces -- -j12 -l12
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/robot_crafters_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/youssef/robot_crafters_ws/build/robot_interfaces
+[0.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/robot_crafters_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/youssef/robot_crafters_ws/build/robot_interfaces
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces' for CMake module files
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces' for CMake config files
+[0.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/lib'
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/bin'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/lib/python3.10/site-packages'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/bin'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[0.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/robot_crafters_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[0.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces' for CMake module files
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/lib'
+[0.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/lib/python3.10/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_interfaces/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[0.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/robot_crafters_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[0.698s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/youssef/robot_crafters_ws/src/control' with build type 'ament_python'
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'ament_prefix_path')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/control/share/control/hook/ament_prefix_path.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/control/share/control/hook/ament_prefix_path.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/control/share/control/hook/ament_prefix_path.sh'
+[0.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/youssef/robot_crafters_ws/src/motors' with build type 'ament_python'
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('motors', 'ament_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/motors/share/motors/hook/ament_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/motors/share/motors/hook/ament_prefix_path.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/motors/share/motors/hook/ament_prefix_path.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/youssef/robot_crafters_ws/src/control'
+[0.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.155s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/youssef/robot_crafters_ws/src/motors'
+[1.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/robot_crafters_ws/src/motors': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motors build --build-base /home/youssef/robot_crafters_ws/build/motors/build install --record /home/youssef/robot_crafters_ws/build/motors/install.log --single-version-externally-managed install_data
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/robot_crafters_ws/src/control': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/youssef/robot_crafters_ws/build/control/build install --record /home/youssef/robot_crafters_ws/build/control/install.log --single-version-externally-managed install_data
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors' for CMake module files
+[1.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/robot_crafters_ws/src/motors' returned '0': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motors build --build-base /home/youssef/robot_crafters_ws/build/motors/build install --record /home/youssef/robot_crafters_ws/build/motors/install.log --single-version-externally-managed install_data
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors' for CMake config files
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors/lib'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors/bin'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors/lib/pkgconfig/motors.pc'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages'
+[1.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('motors', 'pythonpath')
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/motors/share/motors/hook/pythonpath.ps1'
+[1.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/motors/share/motors/hook/pythonpath.dsv'
+[1.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/motors/share/motors/hook/pythonpath.sh'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/motors/bin'
+[1.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motors)
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/motors/share/motors/package.ps1'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/robot_crafters_ws/install/motors/share/motors/package.dsv'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/motors/share/motors/package.sh'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/motors/share/motors/package.bash'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/motors/share/motors/package.zsh'
+[1.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/robot_crafters_ws/install/motors/share/colcon-core/packages/motors)
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control' for CMake module files
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control' for CMake config files
+[1.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/robot_crafters_ws/src/control' returned '0': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/youssef/robot_crafters_ws/build/control/build install --record /home/youssef/robot_crafters_ws/build/control/install.log --single-version-externally-managed install_data
+[1.729s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control/lib'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control/bin'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control/lib/pkgconfig/control.pc'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages'
+[1.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/control/share/control/hook/pythonpath.ps1'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/control/share/control/hook/pythonpath.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/control/share/control/hook/pythonpath.sh'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/control/bin'
+[1.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/control/share/control/package.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/robot_crafters_ws/install/control/share/control/package.dsv'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/control/share/control/package.sh'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/control/share/control/package.bash'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/control/share/control/package.zsh'
+[1.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/robot_crafters_ws/install/control/share/colcon-core/packages/control)
+[1.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youssef/robot_crafters_ws/src/robot_bringup' with build type 'ament_cmake'
+[1.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youssef/robot_crafters_ws/src/robot_bringup'
+[1.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/robot_crafters_ws/build/robot_bringup': AMENT_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/build/motors:/home/youssef/robot_crafters_ws/build/control:/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/youssef/colcon_ws/build/num:/home/youssef/colcon_ws/install/num/lib/python3.10/site-packages:/home/youssef/colcon_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/youssef/robot_crafters_ws/build/robot_bringup -- -j12 -l12
+[1.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/robot_crafters_ws/build/robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/build/motors:/home/youssef/robot_crafters_ws/build/control:/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/youssef/colcon_ws/build/num:/home/youssef/colcon_ws/install/num/lib/python3.10/site-packages:/home/youssef/colcon_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/youssef/robot_crafters_ws/build/robot_bringup -- -j12 -l12
+[1.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/robot_crafters_ws/build/robot_bringup': AMENT_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/build/motors:/home/youssef/robot_crafters_ws/build/control:/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/youssef/colcon_ws/build/num:/home/youssef/colcon_ws/install/num/lib/python3.10/site-packages:/home/youssef/colcon_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/youssef/robot_crafters_ws/build/robot_bringup
+[1.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup' for CMake module files
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/robot_crafters_ws/build/robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup:/home/youssef/robot_crafters_ws/install/motors:/home/youssef/robot_crafters_ws/install/control:/home/youssef/colcon_ws/install/num:/home/youssef/colcon_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:/home/youssef/robot_crafters_ws/build/motors:/home/youssef/robot_crafters_ws/build/control:/home/youssef/robot_crafters_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/youssef/colcon_ws/build/num:/home/youssef/colcon_ws/install/num/lib/python3.10/site-packages:/home/youssef/colcon_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/youssef/robot_crafters_ws/build/robot_bringup
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup' for CMake config files
+[1.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/bin'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/lib/python3.10/site-packages'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/bin'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/robot_crafters_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup' for CMake module files
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup' for CMake config files
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/bin'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/lib/python3.10/site-packages'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/robot_crafters_ws/install/robot_bringup/bin'
+[1.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/robot_crafters_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.800s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.804s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.804s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.804s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.814s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/robot_crafters_ws/install/local_setup.ps1'
+[1.815s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/youssef/robot_crafters_ws/install/_local_setup_util_ps1.py'
+[1.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/robot_crafters_ws/install/setup.ps1'
+[1.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/robot_crafters_ws/install/local_setup.sh'
+[1.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/youssef/robot_crafters_ws/install/_local_setup_util_sh.py'
+[1.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/robot_crafters_ws/install/setup.sh'
+[1.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/robot_crafters_ws/install/local_setup.bash'
+[1.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/robot_crafters_ws/install/setup.bash'
+[1.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/robot_crafters_ws/install/local_setup.zsh'
+[1.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/robot_crafters_ws/install/setup.zsh'

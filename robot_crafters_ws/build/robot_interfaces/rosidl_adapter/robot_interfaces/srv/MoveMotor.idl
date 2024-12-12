@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/MoveMotor.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct MoveMotor_Request {
+      int64 steps;
+
+      boolean dir;
+    };
+    struct MoveMotor_Response {
+      double new_location;
+    };
+  };
+};
