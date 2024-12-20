@@ -1,1 +1,1 @@
-control:motors
+control:gazebo_ros:motors:robot_crafters:robot_state_publisher

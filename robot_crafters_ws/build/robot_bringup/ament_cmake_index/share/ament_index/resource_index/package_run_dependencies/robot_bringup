@@ -1,1 +1,1 @@
-motors;control;ament_lint_auto;ament_lint_common
+motors;control;robot_crafters;robot_state_publisher;gazebo_ros;ament_lint_auto;ament_lint_common

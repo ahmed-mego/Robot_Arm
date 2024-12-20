@@ -1,4 +1,5 @@
 /home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/launch/robot.launch.py
+/home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/launch/robot_crafters_gazebo.launch.py
 /home/youssef/robot_crafters_ws/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
 /home/youssef/robot_crafters_ws/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
 /home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh

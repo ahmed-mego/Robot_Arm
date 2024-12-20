@@ -5,19 +5,28 @@ from launch_ros.actions import Node
 def generate_launch_description():
     ld = LaunchDescription()
 
-    motor_nodes = []
+    motor_pins = [
+        #step, dir
+        (27, 17),  # Motor 1
+        (5, 6),    # Motor 2
+        (22, 12),  # Motor 3
+        (13, 23)   # Motor 4
+    ]
 
-    
-    for i in range(1,5):
-        motor_nodes.append(Node(
+    motor_nodes = [
+        Node(
             package="motors",
             executable="motor_srv",
-            name="motor_" + str(i),
+            name=f"motor_{i + 1}",
             parameters=[
-                {"SrvName": "move_motor_"+str(i)},
-                {"MsgName": "motor_" + str(i) + "_position"}
+                {"SrvName": f"move_motor_{i + 1}"},
+                {"MsgName": f"motor_{i + 1}_position"},
+                {"StepPin": step},
+                {"DirPin": dir}
             ]
-        ))
+        )
+        for i, (step, dir) in enumerate(motor_pins)
+    ]
 
     motor_cli = Node(
         package="motors",
@@ -25,7 +34,8 @@ def generate_launch_description():
         name="motor_client"
     )
 
+    ld.add_action(motor_cli)
     for node in motor_nodes:
         ld.add_action(node)
-    ld.add_action(motor_cli)
+
     return ld
