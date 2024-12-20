@@ -1,0 +1,17 @@
+[0.759s] Invoking command in '/home/youssef/robot_crafters_ws/build/control': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/control/build --no-deps symlink_data
+[0.984s] running develop
+[1.128s] running egg_info
+[1.128s] writing control.egg-info/PKG-INFO
+[1.129s] writing dependency_links to control.egg-info/dependency_links.txt
+[1.129s] writing entry points to control.egg-info/entry_points.txt
+[1.129s] writing requirements to control.egg-info/requires.txt
+[1.129s] writing top-level names to control.egg-info/top_level.txt
+[1.132s] reading manifest file 'control.egg-info/SOURCES.txt'
+[1.133s] writing manifest file 'control.egg-info/SOURCES.txt'
+[1.135s] running build_ext
+[1.135s] Creating /home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[1.136s] Installing control script to /home/youssef/robot_crafters_ws/install/control/lib/control
+[1.136s] 
+[1.136s] Installed /home/youssef/robot_crafters_ws/build/control
+[1.136s] running symlink_data
+[1.170s] Invoked command in '/home/youssef/robot_crafters_ws/build/control' returned '0': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/control/build --no-deps symlink_data

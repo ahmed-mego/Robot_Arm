@@ -1,0 +1,12 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/launch/robot.launch.py
+-- Up-to-date symlink: /home/youssef/robot_crafters_ws/install/robot_bringup/share/robot_bringup/launch/robot_crafters_gazebo.launch.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/youssef/robot_crafters_ws/src/robot_bringup/rviz'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

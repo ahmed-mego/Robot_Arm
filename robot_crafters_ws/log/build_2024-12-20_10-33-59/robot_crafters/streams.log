@@ -1,0 +1,43 @@
+[1.476s] Invoking command in '/home/youssef/robot_crafters_ws/build/robot_crafters': PYTHONPATH=/home/youssef/robot_crafters_ws/build/robot_crafters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/robot_crafters/build --no-deps symlink_data
+[1.862s] running develop
+[2.115s] running egg_info
+[2.116s] writing robot_crafters.egg-info/PKG-INFO
+[2.116s] writing dependency_links to robot_crafters.egg-info/dependency_links.txt
+[2.116s] writing entry points to robot_crafters.egg-info/entry_points.txt
+[2.116s] writing requirements to robot_crafters.egg-info/requires.txt
+[2.116s] writing top-level names to robot_crafters.egg-info/top_level.txt
+[2.118s] reading manifest file 'robot_crafters.egg-info/SOURCES.txt'
+[2.119s] writing manifest file 'robot_crafters.egg-info/SOURCES.txt'
+[2.121s] running build_ext
+[2.121s] Creating /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot-crafters.egg-link (link to .)
+[2.122s] 
+[2.123s] Installed /home/youssef/robot_crafters_ws/build/robot_crafters
+[2.123s] running symlink_data
+[2.123s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index
+[2.123s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index
+[2.123s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index/packages
+[2.124s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/resource/robot_crafters -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index/packages
+[2.124s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/package.xml -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters
+[2.124s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/launch/launch.py -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters
+[2.124s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf
+[2.124s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/urdf/final_urdf.urdf -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf/
+[2.124s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/rviz
+[2.125s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/rviz/view.rviz -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/rviz/
+[2.125s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes
+[2.125s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision
+[2.125s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_4.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.125s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/base_link.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.125s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/finger_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.125s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/finger_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.126s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.126s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.126s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_3.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[2.126s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual
+[2.126s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_4.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.126s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/base_link.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.127s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/finger_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.127s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/finger_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.127s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.127s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.127s] symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_3.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[2.160s] Invoked command in '/home/youssef/robot_crafters_ws/build/robot_crafters' returned '0': PYTHONPATH=/home/youssef/robot_crafters_ws/build/robot_crafters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/robot_crafters/build --no-deps symlink_data

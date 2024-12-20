@@ -1,0 +1,56 @@
+[6.099s] Invoking command in '/home/youssef/robot_crafters_ws/src/robot_crafters': PYTHONPATH=/home/youssef/robot_crafters_ws/build/robot_crafters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_crafters build --build-base /home/youssef/robot_crafters_ws/build/robot_crafters/build install --record /home/youssef/robot_crafters_ws/build/robot_crafters/install.log --single-version-externally-managed install_data
+[7.894s] running egg_info
+[7.900s] creating ../../build/robot_crafters/robot_crafters.egg-info
+[7.902s] writing ../../build/robot_crafters/robot_crafters.egg-info/PKG-INFO
+[7.907s] writing dependency_links to ../../build/robot_crafters/robot_crafters.egg-info/dependency_links.txt
+[7.910s] writing entry points to ../../build/robot_crafters/robot_crafters.egg-info/entry_points.txt
+[7.911s] writing requirements to ../../build/robot_crafters/robot_crafters.egg-info/requires.txt
+[7.911s] writing top-level names to ../../build/robot_crafters/robot_crafters.egg-info/top_level.txt
+[7.913s] writing manifest file '../../build/robot_crafters/robot_crafters.egg-info/SOURCES.txt'
+[7.929s] reading manifest file '../../build/robot_crafters/robot_crafters.egg-info/SOURCES.txt'
+[7.932s] writing manifest file '../../build/robot_crafters/robot_crafters.egg-info/SOURCES.txt'
+[7.933s] running build
+[7.933s] running build_py
+[7.933s] creating /home/youssef/robot_crafters_ws/build/robot_crafters/build
+[7.933s] creating /home/youssef/robot_crafters_ws/build/robot_crafters/build/lib
+[7.933s] creating /home/youssef/robot_crafters_ws/build/robot_crafters/build/lib/robot_crafters
+[7.935s] copying robot_crafters/__init__.py -> /home/youssef/robot_crafters_ws/build/robot_crafters/build/lib/robot_crafters
+[7.937s] running install
+[7.940s] running install_lib
+[7.947s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot_crafters
+[7.948s] copying /home/youssef/robot_crafters_ws/build/robot_crafters/build/lib/robot_crafters/__init__.py -> /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot_crafters
+[7.949s] byte-compiling /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot_crafters/__init__.py to __init__.cpython-310.pyc
+[7.950s] running install_data
+[7.950s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index
+[7.950s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index
+[7.950s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index/packages
+[7.951s] copying resource/robot_crafters -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index/packages
+[7.951s] copying package.xml -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters
+[7.951s] copying launch/launch.py -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters
+[7.951s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf
+[7.952s] copying urdf/final_urdf.urdf -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf/
+[7.952s] copying urdf/robot.urdf -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf/
+[7.953s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/rviz
+[7.957s] copying rviz/urdf_config.rviz -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/rviz/
+[7.959s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes
+[7.961s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision
+[7.962s] copying meshes/collision/link_4.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.964s] copying meshes/collision/base_link.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.965s] copying meshes/collision/finger_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.965s] copying meshes/collision/finger_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.965s] copying meshes/collision/link_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.966s] copying meshes/collision/link_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.966s] copying meshes/collision/link_3.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+[7.966s] creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual
+[7.966s] copying meshes/visual/link_4.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.970s] copying meshes/visual/base_link.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.972s] copying meshes/visual/finger_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.973s] copying meshes/visual/finger_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.973s] copying meshes/visual/link_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.973s] copying meshes/visual/link_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.973s] copying meshes/visual/link_3.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+[7.973s] running install_egg_info
+[7.991s] Copying ../../build/robot_crafters/robot_crafters.egg-info to /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot_crafters-0.0.0-py3.10.egg-info
+[8.001s] running install_scripts
+[8.174s] writing list of installed files to '/home/youssef/robot_crafters_ws/build/robot_crafters/install.log'
+[8.704s] Invoked command in '/home/youssef/robot_crafters_ws/src/robot_crafters' returned '0': PYTHONPATH=/home/youssef/robot_crafters_ws/build/robot_crafters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_crafters build --build-base /home/youssef/robot_crafters_ws/build/robot_crafters/build install --record /home/youssef/robot_crafters_ws/build/robot_crafters/install.log --single-version-externally-managed install_data

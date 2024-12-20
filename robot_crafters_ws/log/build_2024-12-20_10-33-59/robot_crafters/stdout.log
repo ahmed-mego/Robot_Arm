@@ -1,0 +1,41 @@
+running develop
+running egg_info
+writing robot_crafters.egg-info/PKG-INFO
+writing dependency_links to robot_crafters.egg-info/dependency_links.txt
+writing entry points to robot_crafters.egg-info/entry_points.txt
+writing requirements to robot_crafters.egg-info/requires.txt
+writing top-level names to robot_crafters.egg-info/top_level.txt
+reading manifest file 'robot_crafters.egg-info/SOURCES.txt'
+writing manifest file 'robot_crafters.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot-crafters.egg-link (link to .)
+
+Installed /home/youssef/robot_crafters_ws/build/robot_crafters
+running symlink_data
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index/packages
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/resource/robot_crafters -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/ament_index/resource_index/packages
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/package.xml -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/launch/launch.py -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/urdf/final_urdf.urdf -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/urdf/
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/rviz
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/rviz/view.rviz -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/rviz/
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_4.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/base_link.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/finger_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/finger_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/collision/link_3.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/collision/
+creating /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_4.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/base_link.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/finger_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/finger_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_1.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_2.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/
+symbolically linking /home/youssef/robot_crafters_ws/build/robot_crafters/meshes/visual/link_3.STL -> /home/youssef/robot_crafters_ws/install/robot_crafters/share/robot_crafters/meshes/visual/

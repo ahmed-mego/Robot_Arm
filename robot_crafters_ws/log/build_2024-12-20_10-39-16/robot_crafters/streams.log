@@ -1,0 +1,16 @@
+[1.316s] Invoking command in '/home/youssef/robot_crafters_ws/build/robot_crafters': PYTHONPATH=/home/youssef/robot_crafters_ws/build/robot_crafters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/robot_crafters/build --no-deps symlink_data
+[1.669s] running develop
+[1.925s] running egg_info
+[1.925s] writing robot_crafters.egg-info/PKG-INFO
+[1.925s] writing dependency_links to robot_crafters.egg-info/dependency_links.txt
+[1.926s] writing entry points to robot_crafters.egg-info/entry_points.txt
+[1.926s] writing requirements to robot_crafters.egg-info/requires.txt
+[1.926s] writing top-level names to robot_crafters.egg-info/top_level.txt
+[1.930s] reading manifest file 'robot_crafters.egg-info/SOURCES.txt'
+[1.931s] writing manifest file 'robot_crafters.egg-info/SOURCES.txt'
+[1.933s] running build_ext
+[1.933s] Creating /home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages/robot-crafters.egg-link (link to .)
+[1.934s] 
+[1.934s] Installed /home/youssef/robot_crafters_ws/build/robot_crafters
+[1.934s] running symlink_data
+[1.966s] Invoked command in '/home/youssef/robot_crafters_ws/build/robot_crafters' returned '0': PYTHONPATH=/home/youssef/robot_crafters_ws/build/robot_crafters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/robot_crafters/build --no-deps symlink_data

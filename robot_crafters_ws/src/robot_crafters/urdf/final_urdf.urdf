@@ -1,0 +1,428 @@
+
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter <?xml version="1.0" encoding="utf-8"?>
+-->
+<robot
+  name="final_urdf">
+<link name="base_footprint">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <box size="0.001 0.001 0.001" />
+        </geometry>
+    </visual>
+</link>
+
+<joint name="base_footprint_joint" type="fixed">
+    <origin xyz="0 0 0.001" rpy="0 0 0" />
+    <parent link="base_footprint"/>
+    <child link="base_link" />
+</joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="3.81639164622205E-17 -1.61011833905913E-17 0.0425864553314121"
+        rpy="0 0 0" />
+      <mass
+        value="0.17697" />
+      <inertia
+        ixx="0.000321433614733429"
+        ixy="4.3153672238535E-20"
+        ixz="2.2393158451896E-20"
+        iyy="0.000321433614733429"
+        iyz="2.40627983153739E-20"
+        izz="0.0004650095" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_1">
+    <inertial>
+      <origin
+        xyz="-0.00726865780665834 -0.00285369668637606 0.04360556108188"
+        rpy="0 0 0" />
+      <mass
+        value="0.263221784038489" />
+      <inertia
+        ixx="0.000329949358084906"
+        ixy="5.6661779601761E-06"
+        ixz="4.25119071598307E-05"
+        iyy="0.000317741568795907"
+        iyz="1.66903153878296E-05"
+        izz="0.000139259576366162" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.07"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="3.142"
+      effort="300"
+      velocity="3" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="link_2">
+    <inertial>
+      <origin
+        xyz="-1.73472347597681E-17 -0.075 0.0212098007792094"
+        rpy="0 0 0" />
+      <mass
+        value="1.29806509506951" />
+      <inertia
+        ixx="0.0062657114944435"
+        ixy="2.60402502736436E-20"
+        ixz="-4.33680868994202E-19"
+        iyy="0.00128035454417741"
+        iyz="2.1749115590979E-18"
+        izz="0.00645446352685866" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_2"
+    type="revolute">
+    <origin
+      xyz="0.023271 0.0091362 0.08"
+      rpy="-1.5708 0 -1.1967" />
+    <parent
+      link="link_1" />
+    <child
+      link="link_2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="200"
+      velocity="3" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="link_3">
+    <inertial>
+      <origin
+        xyz="0.0749999999999999 0 0.0221538622967558"
+        rpy="0 0 0" />
+      <mass
+        value="0.647520566305543" />
+      <inertia
+        ixx="0.000347861869047757"
+        ixy="1.8914856026565E-18"
+        ixz="-4.59430670590733E-18"
+        iyy="0.00239720093473655"
+        iyz="5.46224865873482E-20"
+        izz="0.00253209414181771" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="0 -0.15 -0.025"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="link_2" />
+    <child
+      link="link_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.142"
+      upper="0.57"
+      effort="300"
+      velocity="3" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="link_4">
+    <inertial>
+      <origin
+        xyz="-0.0260016749419192 2.30871791572218E-05 0.0221909941892141"
+        rpy="0 0 0" />
+      <mass
+        value="0.323800131384377" />
+      <inertia
+        ixx="0.000161676260853587"
+        ixy="8.16941158238677E-08"
+        ixz="9.61299308696256E-07"
+        iyy="0.000234727268101653"
+        iyz="-1.82867431992292E-09"
+        izz="0.000296381959116414" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_4"
+    type="revolute">
+    <origin
+      xyz="0.15 0 0"
+      rpy="-3.1416 0 3.1416" />
+    <parent
+      link="link_3" />
+    <child
+      link="link_4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="200"
+      velocity="3" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="finger_1">
+    <inertial>
+      <origin
+        xyz="0.0050659568614265 0.00722328240335451 0.000708156431126539"
+        rpy="0 1.57 1.57" />
+      <mass
+        value="0.00693344911968842" />
+      <inertia
+        ixx="1.72645267243455E-06"
+        ixy="-3.69793749005936E-07"
+        ixz="-1.20676938526531E-07"
+        iyy="9.82629029862248E-07"
+        iyz="-4.07649907710131E-07"
+        izz="1.84374824309078E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="3.142 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/finger_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.266666666666667 0.588235294117647 0.282352941176471 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/finger_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_joint_1"
+    type="prismatic">
+    <origin
+      xyz="-0.12314 -0.022919 0.023221"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="link_4" />
+    <child
+      link="finger_1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0.02"
+      effort="100"
+      velocity="3" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="finger_2">
+    <inertial>
+      <origin
+        xyz="0.00506595899372983 0.00722329429647373 0.000708146948421196"
+        rpy="0 0 0" />
+      <mass
+        value="0.00693344898001996" />
+      <inertia
+        ixx="1.72645059250549E-06"
+        ixy="-3.69792218804243E-07"
+        ixz="-1.20677399390042E-07"
+        iyy="9.8262968709959E-07"
+        iyz="-4.0765000036755E-07"
+        izz="1.84374485064073E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/finger_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.266666666666667 0.588235294117647 0.282352941176471 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_crafters/meshes/visual/finger_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_joint_2"
+    type="prismatic">
+    <origin
+      xyz="-0.12314 0.022928 0.021779"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="link_4" />
+    <child
+      link="finger_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0.02"
+      effort="100"
+      velocity="3" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+</robot>

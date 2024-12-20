@@ -1,0 +1,18 @@
+[1.167s] Invoking command in '/home/youssef/robot_crafters_ws/build/motors': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/motors/build --no-deps symlink_data
+[1.527s] running develop
+[1.749s] running egg_info
+[1.749s] writing motors.egg-info/PKG-INFO
+[1.750s] writing dependency_links to motors.egg-info/dependency_links.txt
+[1.750s] writing entry points to motors.egg-info/entry_points.txt
+[1.750s] writing requirements to motors.egg-info/requires.txt
+[1.750s] writing top-level names to motors.egg-info/top_level.txt
+[1.753s] reading manifest file 'motors.egg-info/SOURCES.txt'
+[1.754s] writing manifest file 'motors.egg-info/SOURCES.txt'
+[1.756s] running build_ext
+[1.756s] Creating /home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages/motors.egg-link (link to .)
+[1.758s] Installing motor_cli script to /home/youssef/robot_crafters_ws/install/motors/lib/motors
+[1.758s] Installing motor_srv script to /home/youssef/robot_crafters_ws/install/motors/lib/motors
+[1.758s] 
+[1.758s] Installed /home/youssef/robot_crafters_ws/build/motors
+[1.759s] running symlink_data
+[1.806s] Invoked command in '/home/youssef/robot_crafters_ws/build/motors' returned '0': CMAKE_PREFIX_PATH=/home/youssef/robot_crafters_ws/install/robot_interfaces:/home/youssef/robot_crafters_ws/install/robot_bringup PYTHONPATH=/home/youssef/robot_crafters_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/robot_crafters_ws/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/youssef/robot_crafters_ws/build/motors/build --no-deps symlink_data
