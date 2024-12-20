@@ -1,1 +1,0 @@
-/home/youssef/robot_crafters_ws/build/robot_interfaces/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,797 @@
+[0.000000] (-) TimerEvent: {}
+[0.001961] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.002531] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict([('robot_interfaces', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces')])}
+[0.003038] (motors) JobQueued: {'identifier': 'motors', 'dependencies': OrderedDict([('robot_interfaces', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces')])}
+[0.003458] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict([('robot_interfaces', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces'), ('control', '/home/ur3/Robot_Arm/robot_ws/install/control'), ('motors', '/home/ur3/Robot_Arm/robot_ws/install/motors')])}
+[0.003913] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.095456] (-) TimerEvent: {}
+[0.098317] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.106480] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ur3/Robot_Arm/robot_ws/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ur3'), ('SSH_CLIENT', '192.168.1.1 47682 22'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ur3'), ('OLDPWD', '/home/ur3/Robot_Arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ur3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('PWD', '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.1 47682 192.168.1.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.195868] (-) TimerEvent: {}
+[0.255242] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.296181] (-) TimerEvent: {}
+[0.397565] (-) TimerEvent: {}
+[0.499726] (-) TimerEvent: {}
+[0.601001] (-) TimerEvent: {}
+[0.702439] (-) TimerEvent: {}
+[0.805072] (-) TimerEvent: {}
+[0.906483] (-) TimerEvent: {}
+[1.008783] (-) TimerEvent: {}
+[1.110190] (-) TimerEvent: {}
+[1.211473] (-) TimerEvent: {}
+[1.312729] (-) TimerEvent: {}
+[1.414121] (-) TimerEvent: {}
+[1.515447] (-) TimerEvent: {}
+[1.616856] (-) TimerEvent: {}
+[1.641869] (robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.717136] (-) TimerEvent: {}
+[1.741146] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.760618] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.795512] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.817530] (-) TimerEvent: {}
+[1.918826] (-) TimerEvent: {}
+[2.020098] (-) TimerEvent: {}
+[2.121458] (-) TimerEvent: {}
+[2.222728] (-) TimerEvent: {}
+[2.324085] (-) TimerEvent: {}
+[2.344405] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.424394] (-) TimerEvent: {}
+[2.525816] (-) TimerEvent: {}
+[2.627186] (-) TimerEvent: {}
+[2.728539] (-) TimerEvent: {}
+[2.829834] (-) TimerEvent: {}
+[2.931171] (-) TimerEvent: {}
+[3.032535] (-) TimerEvent: {}
+[3.133909] (-) TimerEvent: {}
+[3.235255] (-) TimerEvent: {}
+[3.336694] (-) TimerEvent: {}
+[3.441504] (-) TimerEvent: {}
+[3.542887] (-) TimerEvent: {}
+[3.644242] (-) TimerEvent: {}
+[3.745664] (-) TimerEvent: {}
+[3.847039] (-) TimerEvent: {}
+[3.948316] (-) TimerEvent: {}
+[4.049625] (-) TimerEvent: {}
+[4.151074] (-) TimerEvent: {}
+[4.252987] (-) TimerEvent: {}
+[4.354451] (-) TimerEvent: {}
+[4.455758] (-) TimerEvent: {}
+[4.556964] (-) TimerEvent: {}
+[4.658377] (-) TimerEvent: {}
+[4.759604] (-) TimerEvent: {}
+[4.860983] (-) TimerEvent: {}
+[4.962490] (-) TimerEvent: {}
+[5.063846] (-) TimerEvent: {}
+[5.165350] (-) TimerEvent: {}
+[5.266644] (-) TimerEvent: {}
+[5.367962] (-) TimerEvent: {}
+[5.469329] (-) TimerEvent: {}
+[5.570627] (-) TimerEvent: {}
+[5.611345] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.670907] (-) TimerEvent: {}
+[5.772728] (-) TimerEvent: {}
+[5.874180] (-) TimerEvent: {}
+[5.975807] (-) TimerEvent: {}
+[6.077346] (-) TimerEvent: {}
+[6.178637] (-) TimerEvent: {}
+[6.279958] (-) TimerEvent: {}
+[6.381894] (-) TimerEvent: {}
+[6.483249] (-) TimerEvent: {}
+[6.584537] (-) TimerEvent: {}
+[6.685893] (-) TimerEvent: {}
+[6.787170] (-) TimerEvent: {}
+[6.889338] (-) TimerEvent: {}
+[6.990680] (-) TimerEvent: {}
+[7.092297] (-) TimerEvent: {}
+[7.193765] (-) TimerEvent: {}
+[7.295095] (-) TimerEvent: {}
+[7.396547] (-) TimerEvent: {}
+[7.497867] (-) TimerEvent: {}
+[7.599284] (-) TimerEvent: {}
+[7.700176] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.701577] (-) TimerEvent: {}
+[7.802791] (-) TimerEvent: {}
+[7.904069] (-) TimerEvent: {}
+[8.005455] (-) TimerEvent: {}
+[8.106913] (-) TimerEvent: {}
+[8.208464] (-) TimerEvent: {}
+[8.309863] (-) TimerEvent: {}
+[8.411309] (-) TimerEvent: {}
+[8.512675] (-) TimerEvent: {}
+[8.614075] (-) TimerEvent: {}
+[8.715521] (-) TimerEvent: {}
+[8.817500] (-) TimerEvent: {}
+[8.918774] (-) TimerEvent: {}
+[9.020097] (-) TimerEvent: {}
+[9.121475] (-) TimerEvent: {}
+[9.222788] (-) TimerEvent: {}
+[9.324180] (-) TimerEvent: {}
+[9.425662] (-) TimerEvent: {}
+[9.527036] (-) TimerEvent: {}
+[9.628471] (-) TimerEvent: {}
+[9.729873] (-) TimerEvent: {}
+[9.831199] (-) TimerEvent: {}
+[9.932525] (-) TimerEvent: {}
+[10.033805] (-) TimerEvent: {}
+[10.135563] (-) TimerEvent: {}
+[10.236864] (-) TimerEvent: {}
+[10.338466] (-) TimerEvent: {}
+[10.439971] (-) TimerEvent: {}
+[10.489662] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.540329] (-) TimerEvent: {}
+[10.644488] (-) TimerEvent: {}
+[10.745948] (-) TimerEvent: {}
+[10.778015] (robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.846219] (-) TimerEvent: {}
+[10.948239] (-) TimerEvent: {}
+[11.051544] (-) TimerEvent: {}
+[11.052980] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.055452] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.056784] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.151845] (-) TimerEvent: {}
+[11.253072] (-) TimerEvent: {}
+[11.301338] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.353420] (-) TimerEvent: {}
+[11.454803] (-) TimerEvent: {}
+[11.556224] (-) TimerEvent: {}
+[11.657596] (-) TimerEvent: {}
+[11.758900] (-) TimerEvent: {}
+[11.812070] (robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[11.859221] (-) TimerEvent: {}
+[11.962268] (-) TimerEvent: {}
+[11.972153] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces\n'}
+[12.026947] (robot_interfaces) CommandEnded: {'returncode': 0}
+[12.031257] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[12.037547] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ur3'), ('SSH_CLIENT', '192.168.1.1 47682 22'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ur3'), ('OLDPWD', '/home/ur3/Robot_Arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ur3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('PWD', '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.1 47682 192.168.1.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.062543] (-) TimerEvent: {}
+[12.163844] (-) TimerEvent: {}
+[12.265226] (-) TimerEvent: {}
+[12.366665] (-) TimerEvent: {}
+[12.447592] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[12.466979] (-) TimerEvent: {}
+[12.568759] (-) TimerEvent: {}
+[12.576887] (robot_interfaces) StdoutLine: {'line': b'[ 10%] Built target robot_interfaces__rosidl_generator_c\n'}
+[12.669053] (-) TimerEvent: {}
+[12.770514] (-) TimerEvent: {}
+[12.845740] (robot_interfaces) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_robot_interfaces\n'}
+[12.870910] (-) TimerEvent: {}
+[12.953703] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.971202] (-) TimerEvent: {}
+[13.072638] (-) TimerEvent: {}
+[13.082554] (robot_interfaces) StdoutLine: {'line': b'[ 21%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.172976] (-) TimerEvent: {}
+[13.189724] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[13.273426] (-) TimerEvent: {}
+[13.307825] (robot_interfaces) StdoutLine: {'line': b'[ 31%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[13.373734] (-) TimerEvent: {}
+[13.476199] (-) TimerEvent: {}
+[13.578791] (-) TimerEvent: {}
+[13.680018] (-) TimerEvent: {}
+[13.781871] (-) TimerEvent: {}
+[13.883178] (-) TimerEvent: {}
+[13.985016] (-) TimerEvent: {}
+[14.086361] (-) TimerEvent: {}
+[14.188201] (-) TimerEvent: {}
+[14.289515] (-) TimerEvent: {}
+[14.391388] (-) TimerEvent: {}
+[14.492712] (-) TimerEvent: {}
+[14.594131] (-) TimerEvent: {}
+[14.695428] (-) TimerEvent: {}
+[14.796746] (-) TimerEvent: {}
+[14.898119] (-) TimerEvent: {}
+[14.999511] (-) TimerEvent: {}
+[15.101001] (-) TimerEvent: {}
+[15.202657] (-) TimerEvent: {}
+[15.303990] (-) TimerEvent: {}
+[15.405167] (-) TimerEvent: {}
+[15.506448] (-) TimerEvent: {}
+[15.607683] (-) TimerEvent: {}
+[15.708985] (-) TimerEvent: {}
+[15.810286] (-) TimerEvent: {}
+[15.912113] (-) TimerEvent: {}
+[16.013423] (-) TimerEvent: {}
+[16.115720] (-) TimerEvent: {}
+[16.217005] (-) TimerEvent: {}
+[16.318919] (-) TimerEvent: {}
+[16.420242] (-) TimerEvent: {}
+[16.522102] (-) TimerEvent: {}
+[16.623307] (-) TimerEvent: {}
+[16.654352] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.665225] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[16.666661] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[16.668072] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[16.695378] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[16.705206] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[16.723697] (-) TimerEvent: {}
+[16.826398] (-) TimerEvent: {}
+[16.929747] (-) TimerEvent: {}
+[16.947108] (robot_interfaces) StdoutLine: {'line': b'[ 31%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[17.030092] (-) TimerEvent: {}
+[17.055874] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[17.130413] (-) TimerEvent: {}
+[17.230393] (robot_interfaces) StdoutLine: {'line': b'[ 42%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[17.231728] (-) TimerEvent: {}
+[17.334278] (-) TimerEvent: {}
+[17.435318] (robot_interfaces) StdoutLine: {'line': b'[ 44%] Built target robot_interfaces__cpp\n'}
+[17.440150] (-) TimerEvent: {}
+[17.541514] (-) TimerEvent: {}
+[17.545929] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[17.641832] (-) TimerEvent: {}
+[17.725145] (robot_interfaces) StdoutLine: {'line': b'[ 55%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[17.742197] (-) TimerEvent: {}
+[17.833914] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[17.842453] (-) TimerEvent: {}
+[17.943738] (-) TimerEvent: {}
+[17.996286] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[18.044103] (-) TimerEvent: {}
+[18.104282] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[18.144396] (-) TimerEvent: {}
+[18.245615] (-) TimerEvent: {}
+[18.270928] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[18.345970] (-) TimerEvent: {}
+[18.448820] (-) TimerEvent: {}
+[18.468820] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces\n'}
+[18.550445] (-) TimerEvent: {}
+[18.653121] (-) TimerEvent: {}
+[18.673057] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__py\n'}
+[18.753546] (-) TimerEvent: {}
+[18.780652] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[18.853857] (-) TimerEvent: {}
+[18.953704] (robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target robot_interfaces__rosidl_generator_py\n'}
+[18.955142] (-) TimerEvent: {}
+[19.057608] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.058791] (-) TimerEvent: {}
+[19.159914] (-) TimerEvent: {}
+[19.207156] (robot_interfaces) StdoutLine: {'line': b'[ 91%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.260370] (-) TimerEvent: {}
+[19.312170] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.360731] (-) TimerEvent: {}
+[19.460635] (robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[19.462058] (-) TimerEvent: {}
+[19.562864] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.564260] (-) TimerEvent: {}
+[19.666652] (-) TimerEvent: {}
+[19.711710] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[19.766960] (-) TimerEvent: {}
+[19.821203] (robot_interfaces) CommandEnded: {'returncode': 0}
+[19.827080] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[19.867312] (-) TimerEvent: {}
+[19.909315] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ur3'), ('SSH_CLIENT', '192.168.1.1 47682 22'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ur3'), ('OLDPWD', '/home/ur3/Robot_Arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ur3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('PWD', '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.1 47682 192.168.1.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.967699] (-) TimerEvent: {}
+[19.984589] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.990290] (robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.994287] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[20.005008] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__functions.h\n'}
+[20.008457] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__struct.h\n'}
+[20.011179] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__type_support.h\n'}
+[20.014142] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__functions.h\n'}
+[20.017126] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__struct.h\n'}
+[20.020020] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__type_support.h\n'}
+[20.022942] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor_status.h\n'}
+[20.025546] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motors.h\n'}
+[20.028184] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.031190] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__functions.h\n'}
+[20.034085] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__struct.h\n'}
+[20.036901] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__type_support.h\n'}
+[20.039541] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/move_motor.h\n'}
+[20.042761] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[20.045501] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[20.057691] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[20.060602] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_fastrtps_c.h\n'}
+[20.063373] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.066450] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_fastrtps_c.h\n'}
+[20.067648] (-) TimerEvent: {}
+[20.075274] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[20.078204] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_introspection_c.h\n'}
+[20.080991] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.084075] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_introspection_c.h\n'}
+[20.094309] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__builder.hpp\n'}
+[20.097091] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__struct.hpp\n'}
+[20.099995] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__traits.hpp\n'}
+[20.102893] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__type_support.hpp\n'}
+[20.106871] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__builder.hpp\n'}
+[20.108591] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__struct.hpp\n'}
+[20.113918] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__traits.hpp\n'}
+[20.115629] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__type_support.hpp\n'}
+[20.117454] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor_status.hpp\n'}
+[20.120059] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motors.hpp\n'}
+[20.122859] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.130482] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__builder.hpp\n'}
+[20.146160] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__struct.hpp\n'}
+[20.147358] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__traits.hpp\n'}
+[20.148356] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__type_support.hpp\n'}
+[20.149641] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/move_motor.hpp\n'}
+[20.156910] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.159846] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.162718] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.166681] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.167917] (-) TimerEvent: {}
+[20.174784] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.177529] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.180592] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.183767] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[20.186494] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[20.192127] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.194731] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.205827] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.207016] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.220048] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[20.221924] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[20.224065] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.227599] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.229500] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[20.232260] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py\n'}
+[20.235229] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_status.py\n'}
+[20.238235] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_status_s.c\n'}
+[20.240957] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motors.py\n'}
+[20.243904] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motors_s.c\n'}
+[20.246788] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.249703] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.252544] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.255385] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py\n'}
+[20.258211] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_move_motor.py\n'}
+[20.261049] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_move_motor_s.c\n'}
+[20.265580] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.268166] (-) TimerEvent: {}
+[20.270170] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.274625] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.277623] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/MotorStatus.idl\n'}
+[20.280636] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/Motors.idl\n'}
+[20.283710] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor.idl\n'}
+[20.286394] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/MotorStatus.msg\n'}
+[20.289092] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/Motors.msg\n'}
+[20.291772] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor.srv\n'}
+[20.294645] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor_Request.msg\n'}
+[20.297505] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor_Response.msg\n'}
+[20.300961] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[20.304533] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[20.307443] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[20.310381] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.313278] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[20.316127] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[20.318756] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[20.321517] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[20.324580] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[20.327334] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[20.329475] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[20.368508] (-) TimerEvent: {}
+[20.410549] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[20.413301] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.416244] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.424665] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.426580] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.427697] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.429504] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.437604] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.438971] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[20.439820] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[20.446168] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[20.447066] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[20.450995] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.456914] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.462697] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[20.468866] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.470054] (-) TimerEvent: {}
+[20.475404] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.481421] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.570334] (-) TimerEvent: {}
+[20.671587] (-) TimerEvent: {}
+[20.772864] (-) TimerEvent: {}
+[20.866322] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[20.868254] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...\n"}
+[20.870318] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...\n"}
+[20.872004] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...\n"}
+[20.873681] (-) TimerEvent: {}
+[20.914917] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[20.919837] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.921581] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.923806] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.925485] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.927613] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.929017] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.931420] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.932719] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.935182] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.937569] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.938961] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.941600] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.943050] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.945518] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.946861] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.949369] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[20.950772] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.966085] (robot_interfaces) CommandEnded: {'returncode': 0}
+[20.974279] (-) TimerEvent: {}
+[21.078089] (-) TimerEvent: {}
+[21.180658] (-) TimerEvent: {}
+[21.273024] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[21.283214] (-) TimerEvent: {}
+[21.285903] (control) JobStarted: {'identifier': 'control'}
+[21.349575] (motors) JobStarted: {'identifier': 'motors'}
+[21.385584] (-) TimerEvent: {}
+[21.486876] (-) TimerEvent: {}
+[21.588273] (-) TimerEvent: {}
+[21.689614] (-) TimerEvent: {}
+[21.791004] (-) TimerEvent: {}
+[21.892435] (-) TimerEvent: {}
+[21.993909] (-) TimerEvent: {}
+[22.095265] (-) TimerEvent: {}
+[22.196794] (-) TimerEvent: {}
+[22.298292] (-) TimerEvent: {}
+[22.399612] (-) TimerEvent: {}
+[22.500954] (-) TimerEvent: {}
+[22.602373] (-) TimerEvent: {}
+[22.703698] (-) TimerEvent: {}
+[22.806306] (-) TimerEvent: {}
+[22.907655] (-) TimerEvent: {}
+[23.008952] (-) TimerEvent: {}
+[23.110479] (-) TimerEvent: {}
+[23.211764] (-) TimerEvent: {}
+[23.312996] (-) TimerEvent: {}
+[23.414409] (-) TimerEvent: {}
+[23.515674] (-) TimerEvent: {}
+[23.616966] (-) TimerEvent: {}
+[23.718316] (-) TimerEvent: {}
+[23.819692] (-) TimerEvent: {}
+[23.921064] (-) TimerEvent: {}
+[24.022592] (-) TimerEvent: {}
+[24.123919] (-) TimerEvent: {}
+[24.225885] (-) TimerEvent: {}
+[24.327189] (-) TimerEvent: {}
+[24.429110] (-) TimerEvent: {}
+[24.530511] (-) TimerEvent: {}
+[24.631801] (-) TimerEvent: {}
+[24.733218] (-) TimerEvent: {}
+[24.835194] (-) TimerEvent: {}
+[24.940384] (-) TimerEvent: {}
+[25.043126] (-) TimerEvent: {}
+[25.144742] (-) TimerEvent: {}
+[25.247592] (-) TimerEvent: {}
+[25.348893] (-) TimerEvent: {}
+[25.450301] (-) TimerEvent: {}
+[25.551669] (-) TimerEvent: {}
+[25.653051] (-) TimerEvent: {}
+[25.754560] (-) TimerEvent: {}
+[25.855891] (-) TimerEvent: {}
+[25.957226] (-) TimerEvent: {}
+[26.059199] (-) TimerEvent: {}
+[26.160553] (-) TimerEvent: {}
+[26.261901] (-) TimerEvent: {}
+[26.363203] (-) TimerEvent: {}
+[26.464488] (-) TimerEvent: {}
+[26.565813] (-) TimerEvent: {}
+[26.667153] (-) TimerEvent: {}
+[26.768475] (-) TimerEvent: {}
+[26.869851] (-) TimerEvent: {}
+[26.971718] (-) TimerEvent: {}
+[27.073092] (-) TimerEvent: {}
+[27.174557] (-) TimerEvent: {}
+[27.275922] (-) TimerEvent: {}
+[27.377411] (-) TimerEvent: {}
+[27.478695] (-) TimerEvent: {}
+[27.580005] (-) TimerEvent: {}
+[27.681369] (-) TimerEvent: {}
+[27.782781] (-) TimerEvent: {}
+[27.884039] (-) TimerEvent: {}
+[27.985464] (-) TimerEvent: {}
+[28.086783] (-) TimerEvent: {}
+[28.188086] (-) TimerEvent: {}
+[28.289619] (-) TimerEvent: {}
+[28.393391] (-) TimerEvent: {}
+[28.497034] (-) TimerEvent: {}
+[28.601525] (-) TimerEvent: {}
+[28.703247] (-) TimerEvent: {}
+[28.809581] (-) TimerEvent: {}
+[28.912425] (-) TimerEvent: {}
+[29.017546] (-) TimerEvent: {}
+[29.120242] (-) TimerEvent: {}
+[29.225530] (-) TimerEvent: {}
+[29.329570] (-) TimerEvent: {}
+[29.433572] (-) TimerEvent: {}
+[29.537504] (-) TimerEvent: {}
+[29.641531] (-) TimerEvent: {}
+[29.745538] (-) TimerEvent: {}
+[29.848319] (-) TimerEvent: {}
+[29.951482] (-) TimerEvent: {}
+[30.054899] (-) TimerEvent: {}
+[30.157751] (-) TimerEvent: {}
+[30.273533] (-) TimerEvent: {}
+[30.376089] (-) TimerEvent: {}
+[30.481542] (-) TimerEvent: {}
+[30.584248] (-) TimerEvent: {}
+[30.689533] (-) TimerEvent: {}
+[30.792403] (-) TimerEvent: {}
+[30.897449] (-) TimerEvent: {}
+[31.000085] (-) TimerEvent: {}
+[31.103990] (-) TimerEvent: {}
+[31.209516] (-) TimerEvent: {}
+[31.312093] (-) TimerEvent: {}
+[31.414777] (-) TimerEvent: {}
+[31.517563] (-) TimerEvent: {}
+[31.620431] (-) TimerEvent: {}
+[31.722579] (-) TimerEvent: {}
+[31.824199] (-) TimerEvent: {}
+[31.925762] (-) TimerEvent: {}
+[32.027468] (-) TimerEvent: {}
+[32.130329] (-) TimerEvent: {}
+[32.233557] (-) TimerEvent: {}
+[32.334843] (-) TimerEvent: {}
+[32.437722] (-) TimerEvent: {}
+[32.541586] (-) TimerEvent: {}
+[32.649559] (-) TimerEvent: {}
+[32.752172] (-) TimerEvent: {}
+[32.854869] (-) TimerEvent: {}
+[32.961572] (-) TimerEvent: {}
+[33.064169] (-) TimerEvent: {}
+[33.166789] (-) TimerEvent: {}
+[33.270416] (-) TimerEvent: {}
+[33.327735] (motors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ur3/Robot_Arm/robot_ws/build/motors/build'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/motors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ur3', 'SSH_CLIENT': '192.168.1.1 47682 22', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ur3', 'OLDPWD': '/home/ur3/Robot_Arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ur3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'PWD': '/home/ur3/Robot_Arm/robot_ws/build/motors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.1 47682 192.168.1.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ur3/Robot_Arm/robot_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces'}, 'shell': False}
+[33.370751] (-) TimerEvent: {}
+[33.399668] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ur3/Robot_Arm/robot_ws/build/control/build'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ur3', 'SSH_CLIENT': '192.168.1.1 47682 22', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ur3', 'OLDPWD': '/home/ur3/Robot_Arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ur3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'PWD': '/home/ur3/Robot_Arm/robot_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.1 47682 192.168.1.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ur3/Robot_Arm/robot_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces'}, 'shell': False}
+[33.471013] (-) TimerEvent: {}
+[33.572371] (-) TimerEvent: {}
+[33.673776] (-) TimerEvent: {}
+[33.775070] (-) TimerEvent: {}
+[33.876410] (-) TimerEvent: {}
+[33.977877] (-) TimerEvent: {}
+[34.079179] (-) TimerEvent: {}
+[34.180610] (-) TimerEvent: {}
+[34.283296] (-) TimerEvent: {}
+[34.389565] (-) TimerEvent: {}
+[34.492049] (-) TimerEvent: {}
+[34.594809] (-) TimerEvent: {}
+[34.697506] (-) TimerEvent: {}
+[34.800339] (-) TimerEvent: {}
+[34.904283] (-) TimerEvent: {}
+[35.007250] (-) TimerEvent: {}
+[35.112522] (-) TimerEvent: {}
+[35.215309] (-) TimerEvent: {}
+[35.321546] (-) TimerEvent: {}
+[35.424282] (-) TimerEvent: {}
+[35.529522] (-) TimerEvent: {}
+[35.632296] (-) TimerEvent: {}
+[35.737519] (-) TimerEvent: {}
+[35.841549] (-) TimerEvent: {}
+[35.947036] (-) TimerEvent: {}
+[36.053528] (-) TimerEvent: {}
+[36.156658] (-) TimerEvent: {}
+[36.261529] (-) TimerEvent: {}
+[36.362928] (-) TimerEvent: {}
+[36.469550] (-) TimerEvent: {}
+[36.576258] (-) TimerEvent: {}
+[36.681565] (-) TimerEvent: {}
+[36.785125] (-) TimerEvent: {}
+[36.887815] (-) TimerEvent: {}
+[36.993562] (-) TimerEvent: {}
+[37.095005] (-) TimerEvent: {}
+[37.118187] (motors) StdoutLine: {'line': b'running develop\n'}
+[37.159042] (control) StdoutLine: {'line': b'running develop\n'}
+[37.197509] (-) TimerEvent: {}
+[37.299051] (-) TimerEvent: {}
+[37.402104] (-) TimerEvent: {}
+[37.504936] (-) TimerEvent: {}
+[37.607646] (-) TimerEvent: {}
+[37.713529] (-) TimerEvent: {}
+[37.816033] (-) TimerEvent: {}
+[37.921605] (-) TimerEvent: {}
+[38.024464] (-) TimerEvent: {}
+[38.129547] (-) TimerEvent: {}
+[38.232203] (-) TimerEvent: {}
+[38.337521] (-) TimerEvent: {}
+[38.440140] (-) TimerEvent: {}
+[38.541480] (-) TimerEvent: {}
+[38.643986] (-) TimerEvent: {}
+[38.746793] (-) TimerEvent: {}
+[38.849801] (-) TimerEvent: {}
+[38.953538] (-) TimerEvent: {}
+[39.056402] (-) TimerEvent: {}
+[39.159197] (-) TimerEvent: {}
+[39.261936] (-) TimerEvent: {}
+[39.364703] (-) TimerEvent: {}
+[39.469527] (-) TimerEvent: {}
+[39.573528] (-) TimerEvent: {}
+[39.676134] (-) TimerEvent: {}
+[39.781605] (-) TimerEvent: {}
+[39.884286] (-) TimerEvent: {}
+[39.940764] (motors) StdoutLine: {'line': b'Removing /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors.egg-link (link to .)\n'}
+[39.984716] (-) TimerEvent: {}
+[40.011028] (control) StdoutLine: {'line': b'Removing /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control.egg-link (link to .)\n'}
+[40.085147] (-) TimerEvent: {}
+[40.189726] (-) TimerEvent: {}
+[40.233711] (motors) CommandEnded: {'returncode': 0}
+[40.244754] (motors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motors', 'build', '--build-base', '/home/ur3/Robot_Arm/robot_ws/build/motors/build', 'install', '--record', '/home/ur3/Robot_Arm/robot_ws/build/motors/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/src/motors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ur3', 'SSH_CLIENT': '192.168.1.1 47682 22', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ur3', 'OLDPWD': '/home/ur3/Robot_Arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ur3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'PWD': '/home/ur3/Robot_Arm/robot_ws/build/motors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.1 47682 192.168.1.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ur3/Robot_Arm/robot_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces'}, 'shell': False}
+[40.289980] (-) TimerEvent: {}
+[40.296230] (control) CommandEnded: {'returncode': 0}
+[40.305193] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/home/ur3/Robot_Arm/robot_ws/build/control/build', 'install', '--record', '/home/ur3/Robot_Arm/robot_ws/build/control/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ur3', 'SSH_CLIENT': '192.168.1.1 47682 22', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ur3', 'OLDPWD': '/home/ur3/Robot_Arm', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ur3', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'PWD': '/home/ur3/Robot_Arm/robot_ws/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.1 47682 192.168.1.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ur3/Robot_Arm/robot_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces'}, 'shell': False}
+[40.393553] (-) TimerEvent: {}
+[40.497545] (-) TimerEvent: {}
+[40.600328] (-) TimerEvent: {}
+[40.703083] (-) TimerEvent: {}
+[40.805625] (-) TimerEvent: {}
+[40.908145] (-) TimerEvent: {}
+[41.010719] (-) TimerEvent: {}
+[41.113521] (-) TimerEvent: {}
+[41.216100] (-) TimerEvent: {}
+[41.318794] (-) TimerEvent: {}
+[41.421568] (-) TimerEvent: {}
+[41.525100] (-) TimerEvent: {}
+[41.627767] (-) TimerEvent: {}
+[41.730383] (-) TimerEvent: {}
+[41.832853] (-) TimerEvent: {}
+[41.935833] (-) TimerEvent: {}
+[42.045524] (-) TimerEvent: {}
+[42.149584] (-) TimerEvent: {}
+[42.251639] (-) TimerEvent: {}
+[42.354273] (-) TimerEvent: {}
+[42.461540] (-) TimerEvent: {}
+[42.563997] (-) TimerEvent: {}
+[42.669529] (-) TimerEvent: {}
+[42.773549] (-) TimerEvent: {}
+[42.875966] (-) TimerEvent: {}
+[42.977330] (-) TimerEvent: {}
+[43.081521] (-) TimerEvent: {}
+[43.184075] (-) TimerEvent: {}
+[43.289579] (-) TimerEvent: {}
+[43.392487] (-) TimerEvent: {}
+[43.495173] (-) TimerEvent: {}
+[43.597962] (-) TimerEvent: {}
+[43.700892] (-) TimerEvent: {}
+[43.803818] (-) TimerEvent: {}
+[43.905185] (-) TimerEvent: {}
+[43.954498] (motors) StdoutLine: {'line': b'running egg_info\n'}
+[43.961538] (motors) StdoutLine: {'line': b'writing ../../build/motors/motors.egg-info/PKG-INFO\n'}
+[43.964002] (motors) StdoutLine: {'line': b'writing dependency_links to ../../build/motors/motors.egg-info/dependency_links.txt\n'}
+[43.966943] (motors) StdoutLine: {'line': b'writing entry points to ../../build/motors/motors.egg-info/entry_points.txt\n'}
+[43.968983] (motors) StdoutLine: {'line': b'writing requirements to ../../build/motors/motors.egg-info/requires.txt\n'}
+[43.971507] (motors) StdoutLine: {'line': b'writing top-level names to ../../build/motors/motors.egg-info/top_level.txt\n'}
+[43.993811] (motors) StdoutLine: {'line': b"reading manifest file '../../build/motors/motors.egg-info/SOURCES.txt'\n"}
+[44.001793] (control) StdoutLine: {'line': b'running egg_info\n'}
+[44.004199] (motors) StdoutLine: {'line': b"writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'\n"}
+[44.008133] (-) TimerEvent: {}
+[44.019113] (motors) StdoutLine: {'line': b'running build\n'}
+[44.020443] (motors) StdoutLine: {'line': b'running build_py\n'}
+[44.022483] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[44.023656] (motors) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/build/motors/build\n'}
+[44.024782] (motors) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib\n'}
+[44.026091] (motors) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors\n'}
+[44.027298] (motors) StdoutLine: {'line': b'copying motors/motor_cli.py -> /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors\n'}
+[44.028405] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[44.030968] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[44.032517] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[44.034565] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[44.037115] (motors) StdoutLine: {'line': b'copying motors/__init__.py -> /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors\n'}
+[44.038536] (motors) StdoutLine: {'line': b'copying motors/motor_srv.py -> /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors\n'}
+[44.039600] (motors) StdoutLine: {'line': b'running install\n'}
+[44.040961] (motors) StdoutLine: {'line': b'running install_lib\n'}
+[44.042375] (motors) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors\n'}
+[44.044216] (motors) StdoutLine: {'line': b'copying /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors/motor_cli.py -> /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors\n'}
+[44.045533] (motors) StdoutLine: {'line': b'copying /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors/__init__.py -> /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors\n'}
+[44.046702] (motors) StdoutLine: {'line': b'copying /home/ur3/Robot_Arm/robot_ws/build/motors/build/lib/motors/motor_srv.py -> /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors\n'}
+[44.049472] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[44.051586] (motors) StdoutLine: {'line': b'byte-compiling /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors/motor_cli.py to motor_cli.cpython-310.pyc\n'}
+[44.054670] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[44.056549] (control) StdoutLine: {'line': b'running build\n'}
+[44.057977] (control) StdoutLine: {'line': b'running build_py\n'}
+[44.059634] (control) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/build/control/build\n'}
+[44.060736] (motors) StdoutLine: {'line': b'byte-compiling /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors/__init__.py to __init__.cpython-310.pyc\n'}
+[44.062743] (control) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/build/control/build/lib\n'}
+[44.064967] (control) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/build/control/build/lib/control\n'}
+[44.066189] (control) StdoutLine: {'line': b'copying control/__init__.py -> /home/ur3/Robot_Arm/robot_ws/build/control/build/lib/control\n'}
+[44.068030] (motors) StdoutLine: {'line': b'byte-compiling /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors/motor_srv.py to motor_srv.cpython-310.pyc\n'}
+[44.071014] (control) StdoutLine: {'line': b'copying control/control.py -> /home/ur3/Robot_Arm/robot_ws/build/control/build/lib/control\n'}
+[44.072139] (control) StdoutLine: {'line': b'running install\n'}
+[44.073961] (control) StdoutLine: {'line': b'running install_lib\n'}
+[44.075046] (motors) StdoutLine: {'line': b'running install_data\n'}
+[44.076065] (motors) StdoutLine: {'line': b'copying resource/motors -> /home/ur3/Robot_Arm/robot_ws/install/motors/share/ament_index/resource_index/packages\n'}
+[44.077110] (motors) StdoutLine: {'line': b'copying package.xml -> /home/ur3/Robot_Arm/robot_ws/install/motors/share/motors\n'}
+[44.078747] (motors) StdoutLine: {'line': b'running install_egg_info\n'}
+[44.079944] (control) StdoutLine: {'line': b'creating /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control\n'}
+[44.082153] (control) StdoutLine: {'line': b'copying /home/ur3/Robot_Arm/robot_ws/build/control/build/lib/control/__init__.py -> /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control\n'}
+[44.083344] (control) StdoutLine: {'line': b'copying /home/ur3/Robot_Arm/robot_ws/build/control/build/lib/control/control.py -> /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control\n'}
+[44.085334] (control) StdoutLine: {'line': b'byte-compiling /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc\n'}
+[44.086546] (control) StdoutLine: {'line': b'byte-compiling /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control/control.py to control.cpython-310.pyc\n'}
+[44.088368] (motors) StdoutLine: {'line': b'Copying ../../build/motors/motors.egg-info to /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info\n'}
+[44.092481] (control) StdoutLine: {'line': b'running install_data\n'}
+[44.094157] (control) StdoutLine: {'line': b'copying resource/control -> /home/ur3/Robot_Arm/robot_ws/install/control/share/ament_index/resource_index/packages\n'}
+[44.095898] (control) StdoutLine: {'line': b'copying package.xml -> /home/ur3/Robot_Arm/robot_ws/install/control/share/control\n'}
+[44.098251] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[44.104770] (motors) StdoutLine: {'line': b'running install_scripts\n'}
+[44.108417] (-) TimerEvent: {}
+[44.116054] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[44.134250] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[44.209368] (-) TimerEvent: {}
+[44.313581] (-) TimerEvent: {}
+[44.330415] (motors) StdoutLine: {'line': b'Installing motor_cli script to /home/ur3/Robot_Arm/robot_ws/install/motors/lib/motors\n'}
+[44.332672] (motors) StdoutLine: {'line': b'Installing motor_srv script to /home/ur3/Robot_Arm/robot_ws/install/motors/lib/motors\n'}
+[44.337643] (motors) StdoutLine: {'line': b"writing list of installed files to '/home/ur3/Robot_Arm/robot_ws/build/motors/install.log'\n"}
+[44.365546] (control) StdoutLine: {'line': b'Installing control script to /home/ur3/Robot_Arm/robot_ws/install/control/lib/control\n'}
+[44.371005] (control) StdoutLine: {'line': b"writing list of installed files to '/home/ur3/Robot_Arm/robot_ws/build/control/install.log'\n"}
+[44.415057] (-) TimerEvent: {}
+[44.520078] (-) TimerEvent: {}
+[44.607504] (motors) CommandEnded: {'returncode': 0}
+[44.624361] (-) TimerEvent: {}
+[44.700481] (motors) JobEnded: {'identifier': 'motors', 'rc': 0}
+[44.713444] (control) CommandEnded: {'returncode': 0}
+[44.724572] (-) TimerEvent: {}
+[44.788265] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[44.800081] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[44.824922] (-) TimerEvent: {}
+[44.904930] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[44.917948] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ur3/Robot_Arm/robot_ws/src/robot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/ur3/Robot_Arm/robot_ws/install/robot_bringup'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ur3'), ('SSH_CLIENT', '192.168.1.1 47682 22'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ur3'), ('OLDPWD', '/home/ur3/Robot_Arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ur3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ur3/Robot_Arm/robot_ws/install/motors:/home/ur3/Robot_Arm/robot_ws/install/control:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('PWD', '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.1 47682 192.168.1.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[44.934821] (-) TimerEvent: {}
+[45.037956] (-) TimerEvent: {}
+[45.048368] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[45.138192] (-) TimerEvent: {}
+[45.239971] (-) TimerEvent: {}
+[45.342492] (-) TimerEvent: {}
+[45.448187] (-) TimerEvent: {}
+[45.549500] (-) TimerEvent: {}
+[45.650777] (-) TimerEvent: {}
+[45.752243] (-) TimerEvent: {}
+[45.853728] (-) TimerEvent: {}
+[45.955082] (-) TimerEvent: {}
+[46.056373] (-) TimerEvent: {}
+[46.157740] (-) TimerEvent: {}
+[46.259027] (-) TimerEvent: {}
+[46.361475] (-) TimerEvent: {}
+[46.462758] (-) TimerEvent: {}
+[46.498118] (robot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[46.563081] (-) TimerEvent: {}
+[46.664424] (-) TimerEvent: {}
+[46.766799] (-) TimerEvent: {}
+[46.868116] (-) TimerEvent: {}
+[46.970303] (-) TimerEvent: {}
+[47.071638] (-) TimerEvent: {}
+[47.173480] (-) TimerEvent: {}
+[47.275096] (-) TimerEvent: {}
+[47.377174] (-) TimerEvent: {}
+[47.479703] (-) TimerEvent: {}
+[47.531335] (robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[47.572513] (robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[47.579931] (-) TimerEvent: {}
+[47.681101] (-) TimerEvent: {}
+[47.782366] (-) TimerEvent: {}
+[47.883743] (-) TimerEvent: {}
+[47.984926] (-) TimerEvent: {}
+[48.086298] (-) TimerEvent: {}
+[48.187519] (-) TimerEvent: {}
+[48.288719] (-) TimerEvent: {}
+[48.389964] (-) TimerEvent: {}
+[48.491142] (-) TimerEvent: {}
+[48.573011] (robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ur3/Robot_Arm/robot_ws/build/robot_bringup\n'}
+[48.591239] (robot_bringup) CommandEnded: {'returncode': 0}
+[48.594600] (-) TimerEvent: {}
+[48.597160] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[48.599708] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ur3'), ('SSH_CLIENT', '192.168.1.1 47682 22'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ur3'), ('OLDPWD', '/home/ur3/Robot_Arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ur3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ur3/Robot_Arm/robot_ws/install/motors:/home/ur3/Robot_Arm/robot_ws/install/control:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('PWD', '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.1 47682 192.168.1.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[48.694957] (-) TimerEvent: {}
+[48.796288] (-) TimerEvent: {}
+[48.897620] (-) TimerEvent: {}
+[48.991120] (robot_bringup) CommandEnded: {'returncode': 0}
+[48.996801] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'install'}
+[48.997982] (-) TimerEvent: {}
+[49.006395] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup'], 'cwd': '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ur3'), ('SSH_CLIENT', '192.168.1.1 47682 22'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ur3'), ('OLDPWD', '/home/ur3/Robot_Arm'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ur3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ur3/Robot_Arm/robot_ws/install/motors:/home/ur3/Robot_Arm/robot_ws/install/control:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('PWD', '/home/ur3/Robot_Arm/robot_ws/build/robot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.1 47682 192.168.1.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:/opt/ros/humble')]), 'shell': False}
+[49.081426] (robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.086013] (robot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[49.091234] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/launch/robot.launch.py\n'}
+[49.094065] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/launch/robot_crafters_gazebo.launch.py\n'}
+[49.097119] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup\n'}
+[49.098295] (-) TimerEvent: {}
+[49.100714] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup\n'}
+[49.103576] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh\n'}
+[49.106532] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv\n'}
+[49.109411] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/environment/path.sh\n'}
+[49.112104] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/environment/path.dsv\n'}
+[49.117027] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.bash\n'}
+[49.118679] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.sh\n'}
+[49.120255] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.zsh\n'}
+[49.122644] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.dsv\n'}
+[49.124348] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/package.dsv\n'}
+[49.198643] (-) TimerEvent: {}
+[49.209120] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup\n'}
+[49.212018] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake\n'}
+[49.214331] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake\n'}
+[49.216682] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_bringup/share/robot_bringup/package.xml\n'}
+[49.229776] (robot_bringup) CommandEnded: {'returncode': 0}
+[49.300027] (-) TimerEvent: {}
+[49.385926] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[49.392844] (-) EventReactorShutdown: {}

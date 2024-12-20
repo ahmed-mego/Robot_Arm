@@ -1,0 +1,1 @@
+/home/ur3/Robot_Arm/robot_ws/src/robot_interfaces/msg/MotorStatus.msg

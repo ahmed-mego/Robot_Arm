@@ -1,1 +1,0 @@
-/home/youssef/robot_crafters_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/__init__.py

@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/youssef/robot_crafters_ws/build/motors",
+        "/home/ur3/Robot_Arm/robot_crafters_ws/install/motors/lib/python3.10/site-packages",
+        "/home/youssef/robot_crafters_ws/build/control",
+        "/home/ur3/Robot_Arm/robot_crafters_ws/install/control/lib/python3.10/site-packages",
+        "/home/youssef/robot_crafters_ws/build/robot_crafters",
+        "/home/ur3/Robot_Arm/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/youssef/robot_crafters_ws/build/motors",
+        "/home/ur3/Robot_Arm/robot_crafters_ws/install/motors/lib/python3.10/site-packages",
+        "/home/youssef/robot_crafters_ws/build/control",
+        "/home/ur3/Robot_Arm/robot_crafters_ws/install/control/lib/python3.10/site-packages",
+        "/home/youssef/robot_crafters_ws/build/robot_crafters",
+        "/home/ur3/Robot_Arm/robot_crafters_ws/install/robot_crafters/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

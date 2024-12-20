@@ -1,0 +1,8 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/ur3/Robot_Arm/robot_ws/src/robot_interfaces:msg/MotorStatus.msg",
+    "/home/ur3/Robot_Arm/robot_ws/src/robot_interfaces:msg/Motors.msg",
+    "/home/ur3/Robot_Arm/robot_ws/src/robot_interfaces:srv/MoveMotor.srv"
+  ]
+}

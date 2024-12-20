@@ -1,1 +1,0 @@
-/home/youssef/robot_crafters_ws/src/robot_bringup/launch/robot_crafters_gazebo.launch.py

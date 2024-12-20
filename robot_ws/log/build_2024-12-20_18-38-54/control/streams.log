@@ -1,0 +1,24 @@
+[11.016s] Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/control': AMENT_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces LD_LIBRARY_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ur3/Robot_Arm/robot_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ur3/Robot_Arm/robot_ws/build/control/build --no-deps symlink_data
+[14.904s] running develop
+[17.907s] running egg_info
+[17.909s] creating control.egg-info
+[17.911s] writing control.egg-info/PKG-INFO
+[17.917s] writing dependency_links to control.egg-info/dependency_links.txt
+[17.923s] writing entry points to control.egg-info/entry_points.txt
+[17.925s] writing requirements to control.egg-info/requires.txt
+[17.927s] writing top-level names to control.egg-info/top_level.txt
+[17.929s] writing manifest file 'control.egg-info/SOURCES.txt'
+[17.945s] reading manifest file 'control.egg-info/SOURCES.txt'
+[17.953s] writing manifest file 'control.egg-info/SOURCES.txt'
+[17.971s] running build_ext
+[17.973s] Creating /home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[17.982s] Installing control script to /home/ur3/Robot_Arm/robot_ws/install/control/lib/control
+[17.986s] 
+[17.992s] Installed /home/ur3/Robot_Arm/robot_ws/build/control
+[18.001s] running symlink_data
+[18.014s] creating /home/ur3/Robot_Arm/robot_ws/install/control/share/ament_index
+[18.016s] creating /home/ur3/Robot_Arm/robot_ws/install/control/share/ament_index/resource_index
+[18.021s] creating /home/ur3/Robot_Arm/robot_ws/install/control/share/ament_index/resource_index/packages
+[18.023s] symbolically linking /home/ur3/Robot_Arm/robot_ws/build/control/resource/control -> /home/ur3/Robot_Arm/robot_ws/install/control/share/ament_index/resource_index/packages
+[18.025s] symbolically linking /home/ur3/Robot_Arm/robot_ws/build/control/package.xml -> /home/ur3/Robot_Arm/robot_ws/install/control/share/control
+[18.231s] Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/control' returned '0': AMENT_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces LD_LIBRARY_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ur3/Robot_Arm/robot_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/control/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ur3/Robot_Arm/robot_ws/build/control/build --no-deps symlink_data

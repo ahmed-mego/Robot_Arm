@@ -1,0 +1,3 @@
+/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/MotorStatus.idl
+/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/Motors.idl
+/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/MoveMotor.idl

@@ -1,1 +1,0 @@
-/home/youssef/robot_crafters_ws/build/robot_interfaces/rosidl_cmake/srv/MoveMotor_Response.msg

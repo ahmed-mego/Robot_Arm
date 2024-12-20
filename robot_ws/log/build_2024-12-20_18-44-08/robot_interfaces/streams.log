@@ -1,0 +1,188 @@
+[0.112s] Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ur3/Robot_Arm/robot_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces
+[0.252s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.738s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.792s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.608s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.774s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.052s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.053s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.298s] -- Configuring done
+[11.809s] -- Generating done
+[11.969s] -- Build files have been written to: /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces
+[12.024s] Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ur3/Robot_Arm/robot_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces
+[12.041s] Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces -- -j4 -l4
+[12.444s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c[0m
+[12.574s] [ 10%] Built target robot_interfaces__rosidl_generator_c
+[12.842s] [ 10%] Built target ament_cmake_python_symlink_robot_interfaces
+[12.950s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c[0m
+[13.079s] [ 21%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[13.186s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c[0m
+[13.304s] [ 31%] Built target robot_interfaces__rosidl_typesupport_c
+[16.651s] running egg_info
+[16.662s] writing robot_interfaces.egg-info/PKG-INFO
+[16.663s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[16.664s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[16.692s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[16.702s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[16.944s] [ 31%] Built target ament_cmake_python_build_robot_interfaces_egg
+[17.052s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[17.227s] [ 42%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[17.435s] [ 44%] Built target robot_interfaces__cpp
+[17.542s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[17.722s] [ 55%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[17.830s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp[0m
+[17.993s] [ 65%] Built target robot_interfaces__rosidl_typesupport_cpp
+[18.101s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[18.267s] [ 76%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[18.465s] [ 76%] Built target robot_interfaces
+[18.670s] [ 78%] Built target robot_interfaces__py
+[18.777s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py[0m
+[18.950s] [ 87%] Built target robot_interfaces__rosidl_generator_py
+[19.054s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[19.204s] [ 91%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.309s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext[0m
+[19.457s] [ 95%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[19.559s] [35m[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[19.708s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[19.818s] Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces -- -j4 -l4
+[19.912s] Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces
+[19.981s] -- Install configuration: ""
+[19.987s] -- Execute custom install script
+[19.991s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[20.002s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__functions.h
+[20.005s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__struct.h
+[20.008s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__type_support.h
+[20.010s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__functions.h
+[20.014s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__struct.h
+[20.016s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__type_support.h
+[20.019s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor_status.h
+[20.022s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motors.h
+[20.024s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[20.027s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__functions.h
+[20.030s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__struct.h
+[20.033s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__type_support.h
+[20.036s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/move_motor.h
+[20.039s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[20.042s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[20.054s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[20.057s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_fastrtps_c.h
+[20.060s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.063s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_fastrtps_c.h
+[20.072s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[20.075s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_introspection_c.h
+[20.077s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.080s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_introspection_c.h
+[20.091s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__builder.hpp
+[20.094s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__struct.hpp
+[20.096s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__traits.hpp
+[20.099s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__type_support.hpp
+[20.103s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__builder.hpp
+[20.105s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__struct.hpp
+[20.111s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__traits.hpp
+[20.112s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__type_support.hpp
+[20.114s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motor_status.hpp
+[20.116s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/motors.hpp
+[20.126s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.132s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__builder.hpp
+[20.143s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__struct.hpp
+[20.144s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__traits.hpp
+[20.145s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__type_support.hpp
+[20.146s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/move_motor.hpp
+[20.153s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[20.156s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp
+[20.159s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.163s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[20.171s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[20.174s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/motors__rosidl_typesupport_introspection_cpp.hpp
+[20.177s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/move_motor__rosidl_typesupport_introspection_cpp.hpp
+[20.180s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[20.183s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[20.188s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[20.191s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[20.202s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[20.203s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[20.217s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[20.218s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[20.220s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.224s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[20.226s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[20.229s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py
+[20.232s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_status.py
+[20.235s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motor_status_s.c
+[20.237s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motors.py
+[20.240s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_motors_s.c
+[20.243s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.246s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.249s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.252s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py
+[20.255s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_move_motor.py
+[20.257s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_move_motor_s.c
+[20.262s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[20.267s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[20.271s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[20.274s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/MotorStatus.idl
+[20.277s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/Motors.idl
+[20.280s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor.idl
+[20.283s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/MotorStatus.msg
+[20.285s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/msg/Motors.msg
+[20.288s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor.srv
+[20.291s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor_Request.msg
+[20.294s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/srv/MoveMotor_Response.msg
+[20.297s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[20.301s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[20.304s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[20.307s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[20.310s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[20.312s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[20.315s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[20.318s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[20.321s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[20.324s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[20.326s] -- Symlinking: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[20.407s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[20.410s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[20.413s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.421s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[20.423s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[20.424s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.426s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.434s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.435s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[20.441s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[20.442s] -- Up-to-date symlink: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[20.443s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[20.447s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[20.453s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[20.459s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[20.465s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[20.472s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[20.478s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[20.863s] Listing '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[20.865s] Compiling '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[20.867s] Listing '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...
+[20.869s] Listing '/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...
+[20.911s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[20.916s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[20.918s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[20.920s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[20.922s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.924s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[20.925s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.928s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[20.929s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[20.931s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[20.934s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.935s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.938s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[20.939s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.942s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[20.943s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[20.946s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[20.947s] -- Up-to-date: /home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[20.964s] Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces

@@ -1,0 +1,6 @@
+Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ur3/Robot_Arm/robot_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces
+Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ur3/Robot_Arm/robot_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces
+Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces -- -j4 -l4
+Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces -- -j4 -l4
+Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces
+Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ur3/Robot_Arm/robot_ws/build/robot_interfaces

@@ -1,0 +1,1 @@
+/home/ur3/Robot_Arm/robot_ws/build/robot_interfaces/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp

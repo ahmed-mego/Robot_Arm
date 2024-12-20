@@ -1,0 +1,25 @@
+[10.989s] Invoking command in '/home/ur3/Robot_Arm/robot_ws/build/motors': AMENT_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces LD_LIBRARY_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ur3/Robot_Arm/robot_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ur3/Robot_Arm/robot_ws/build/motors/build --no-deps symlink_data
+[14.782s] running develop
+[17.608s] running egg_info
+[17.609s] creating motors.egg-info
+[17.611s] writing motors.egg-info/PKG-INFO
+[17.614s] writing dependency_links to motors.egg-info/dependency_links.txt
+[17.616s] writing entry points to motors.egg-info/entry_points.txt
+[17.621s] writing requirements to motors.egg-info/requires.txt
+[17.622s] writing top-level names to motors.egg-info/top_level.txt
+[17.623s] writing manifest file 'motors.egg-info/SOURCES.txt'
+[17.637s] reading manifest file 'motors.egg-info/SOURCES.txt'
+[17.645s] writing manifest file 'motors.egg-info/SOURCES.txt'
+[17.659s] running build_ext
+[17.661s] Creating /home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages/motors.egg-link (link to .)
+[17.669s] Installing motor_cli script to /home/ur3/Robot_Arm/robot_ws/install/motors/lib/motors
+[17.675s] Installing motor_srv script to /home/ur3/Robot_Arm/robot_ws/install/motors/lib/motors
+[17.677s] 
+[17.678s] Installed /home/ur3/Robot_Arm/robot_ws/build/motors
+[17.680s] running symlink_data
+[17.681s] creating /home/ur3/Robot_Arm/robot_ws/install/motors/share/ament_index
+[17.683s] creating /home/ur3/Robot_Arm/robot_ws/install/motors/share/ament_index/resource_index
+[17.685s] creating /home/ur3/Robot_Arm/robot_ws/install/motors/share/ament_index/resource_index/packages
+[17.686s] symbolically linking /home/ur3/Robot_Arm/robot_ws/build/motors/resource/motors -> /home/ur3/Robot_Arm/robot_ws/install/motors/share/ament_index/resource_index/packages
+[17.688s] symbolically linking /home/ur3/Robot_Arm/robot_ws/build/motors/package.xml -> /home/ur3/Robot_Arm/robot_ws/install/motors/share/motors
+[17.968s] Invoked command in '/home/ur3/Robot_Arm/robot_ws/build/motors' returned '0': AMENT_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces LD_LIBRARY_PATH=/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ur3/Robot_Arm/robot_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ur3/Robot_Arm/robot_ws/install/motors/lib/python3.10/site-packages:/home/ur3/Robot_Arm/robot_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ur3/Robot_Arm/robot_ws/build/motors/build --no-deps symlink_data
